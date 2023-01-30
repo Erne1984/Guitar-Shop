@@ -8,6 +8,7 @@
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+/*Cabeçalho*/
 
 .header-content {
     display: flex;
@@ -22,17 +23,23 @@
 .page-header {
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 .header-content .search {
 
-    font-size: 1.2rem;
+    font-size: 1rem;
     width: 250px;
     height: 2.0rem;
     outline: none;
+    border: 0.5px solid  ;
+    padding: 18px;
     
 }
 
+.header-content .search:hover {
+    color: #000;
+}
 
 
 .header-content .icons{
@@ -46,5 +53,44 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
+
+.header-content .list-header li{
+    margin: 4px;
+}
+
+.header-content .list-header li a{
+    color: #000;
+    text-decoration: none;
+}
+
+.header-content .list-header li a:hover{
+    text-decoration: underline;
+}
+
+/*menu de baixo*/
+
+.menu-navegacao {
+    list-style: none;
+    text-align: center;
+    
+}
+
+.menu-navegacao li{
+    display: inline-block;
+    
+}
+
+.menu-navegacao li a{
+    padding: 10px;
+    font-size: 1.1rem;
+    color: #000;
+    text-decoration: none;
+}
+
+.menu-navegacao li a:hover{
+    text-decoration: underline;
+}
+
+/*media queries*/
+
