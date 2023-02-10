@@ -73,6 +73,7 @@
 .menu-navegacao {
     list-style: none;
     text-align: center;
+    margin-bottom:10px ;
     
 }
 
@@ -96,7 +97,7 @@
 
 .carrosel{
     margin: 0 auto;
-    width: 800px;
+    width: 1000px;
     height: 590px;
     overflow: hidden;
 }
@@ -118,12 +119,13 @@
 }
 
 .carrosel .carrosel-itens .item-carrosel img{
-    width: 800px;
+    width: 1000px;
+    height: 510px;
 }
 
 .manual-navigation{
     position: absolute;
-    width: 800px;
+    width: 1000px;
     margin-top: 85px;
     display: flex;
     justify-content: center;
@@ -163,7 +165,7 @@
 
 .navigation-auto{
     position: absolute;
-    width: 800px;
+    width: 1000px;
     margin-top: 485px;
     display: flex;
     justify-content: center;
@@ -199,6 +201,43 @@
 
 #radio4:checked ~ .navigation-auto .auto-btn4{
     background-color: #fff;
+}
+
+/*Ofertas*/
+
+.titles{
+    text-align: center;
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.offers {
+    display: flex;
+    margin: 0 auto;
+    padding: 40px 0;
+    justify-content: center;
+}
+
+
+.offers .offers-container{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.offers .offers-container .img-offers {
+    height: auto;
+    width: 300px;
+}
+
+.offers .offers-container .price-block{
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.offers .offers-container .price-block .price-block-price{
+    display: flex;
+    gap: 5px;
 }
 
 
